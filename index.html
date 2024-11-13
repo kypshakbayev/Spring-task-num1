@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://127.0.0.1:5500/Spring%20Task%201/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Spring task 1</title>
+        <link rel="stylesheet" type="text/css" href="./index_files/style.css">
+    </head>
+    <body>  
+        <div class="page">
+            <div class="menu">
+                <div>
+                    <p style="margin: 10px;">BITLAB NEWS</p>
+                </div>
+                <div class="info">
+                    <div style="margin: 10px;"><p>Home</p></div>  
+                    <div style="margin: 10px;"><p>Sport</p></div> 
+                    <div style="margin: 10px;"><p>Sciense</p></div> 
+                    <div style="margin: 10px;"><p>Politics</p></div> 
+                    <div style="margin: 10px;"><p>Finance</p></div> 
+                </div>
+            </div>
+            <div class="mainNews">
+                <div class="mainNewsImg">
+                    <img src="./index_files/airport.jpg" style="width: 100%; height: 100%;">
+                </div>
+                <div class="mainNewsText">
+                        <h3>В КЫЗЫЛОРДЕ ОТКРЫТ НОВЫЙ ТЕРМИНАЛ АЭРОПОРТА</h3>
+                        <p class="newsText">Сегодня значимый день для всех кызылординцев. В областном центре 
+                        состоялось долгожданное открытие терминала аэропорта. Прибывший в область с рабочим визитом 
+                        премьер-министр Олжас Бектенов стал свидетелем исторического момента и ознакомился с работой 
+                        нового объекта.</p>
+                        <p class="newsText">Аэропорт – воздушные ворота города. Строительство терминала началось 
+                            в феврале прошлого года. За меньше года было возведено современное здание, отвечающим 
+                            всем международным стандартам. Спонсорскую помощь масштабному проекту оказал фонд Болата
+                             Утемуратова. Областным бюджетом профинансировано подведение коммунальных сетей и
+                              благоустройство. Таким образом с участием премьер-министра состоялся торжественный 
+                              запуск долгожданного объекта</p>
+                </div>
+            </div>
+            <div class="latestNews">
+                <h3>ПОСЛЕДНИЕ НОВОСТИ</h3>
+            </div>
+            <div class="latestNewsContent">
+                <div class="firstNews">
+                    <img src="./index_files/1news.jpg" class="img">
+                    <p>Идеальные дороги села Жосалы, но все ждут нового моста</p>
+                    <a href="https://24.kz/ru/tv-projects/dorogi-kz/item/679715-idealnye-dorogi-sela-zhosaly-no-vse-zhdut-novogo-mosta-dorogi-kz">Подробнее</a>
+                </div>
+                <div class="firstNews">
+                    <img src="./index_files/2news.jpg" class="img">
+                    <p>До 80% электросетей полностью изношены в Кармакшинском районе</p>
+                    <a href="https://24.kz/ru/news/social/item/637797-do-80-elektrosetej-polnostyu-iznosheny-v-karmakshinskom-rajone">Подробнее</a>
+                </div>
+                <div class="firstNews">
+                    <img src="./index_files/3news.jpg" class="img">
+                    <p>В Кызылординской области расширяют спортивную инфраструктуру</p>
+                    <a href="https://24.kz/ru/news/social/item/621860-v-kyzylordinskoj-oblasti-rasshiryayut-sportivnuyu-infrastrukturu">Подробнее</a>
+                </div>
+                <div class="firstNews">
+                    <img src="./index_files/4news.jpg" class="img">
+                    <p>13 ноября – Международный день незрячих людей</p>
+                    <a href="https://24.kz/ru/news/in-the-world/item/680411-13-noyabrya-mezhdunarodnyj-den-nezryachikh">Подробнее</a>
+                </div>
+
+            </div>
+    </div>
+
+
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
